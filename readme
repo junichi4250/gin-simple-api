@@ -1,0 +1,8 @@
+GET	/recipes	レシピの一覧を返す
+POST /recipes	新しいレシピを作る
+PUT	/recipes/{id}	レシピをアップデートする
+DELETE /recipes	レシピを削除する
+GET	/recipes/search?tag=X	Tagに指定されたレシピを返却する
+
+
+https://selfnote.work/20211120/programming/golang-gin-api-2/
