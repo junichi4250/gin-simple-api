@@ -20,6 +20,11 @@ func init() {
 	_ = json.Unmarshal([]byte(file), &recipes)
 }
 
+// @description テスト用APIの詳細
+// @version 1.0
+// @accept application/x-json-stream
+// @param none query string false "必須ではありません。"
+// @router /recipes/ [post]
 func NewRecipeHandler(c *gin.Context) {
 	var recipe model.Recipe
 	// リクエストデータを取り出す

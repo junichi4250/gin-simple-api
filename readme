@@ -6,3 +6,15 @@ GET	/recipes/search?tag=X	Tagに指定されたレシピを返却する
 
 
 https://selfnote.work/20211120/programming/golang-gin-api-2/
+
+swagger-goの立ち上げ方
+・サーバーの立ち上げ
+```
+go run main.go
+```
+
+・documentへアクセス
+http://localhost:8080/swagger/index.html
+
+
+https://qiita.com/Syoitu/items/71ca216c271e2d3c14ca
